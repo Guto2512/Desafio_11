@@ -1,0 +1,48 @@
+:root {
+    --color_01: #1487FF;
+    --color_02: #07AFE8;
+    --c_white: #ffffff;
+    --c_gray: #f1f1f1;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h1, table {
+    background-color: var(--c_white);
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.img{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ativo {
+    background-color: var(--color_01);
+    color: var(--c_white);
+}
+
+.article_box p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.article_box h2 {
+    border-top: 8px var(--c_white);
+    background-color: var(--c_gray);
+    padding: 10px;
+}
+
+#footer_box{
+border-top: 8px var(--color_01);
+background-color: var(--c_gray);
+text-align: center;
+height: 50px;
+}
